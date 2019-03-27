@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HouseController</string>
+    <string name="title_home">Home</string>
+    <string name="title_light">Licht</string>
+    <string name="title_doorbell">Klingel</string>
+    <string name="title_weather">Wetter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

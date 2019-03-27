@@ -1,0 +1,4 @@
+
+Lights:
+    - Cache JSON and View to simply check for changes in new JSON and apply them,
+        no need for recreating whole view

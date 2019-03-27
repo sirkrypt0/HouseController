@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoorbellFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="540dp"
+        android:layout_height="483dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="136dp"
+        android:contentDescription="man"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/alert_dark_frame"
+        tools:src="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="199dp"
+        android:layout_marginLeft="199dp"
+        android:layout_marginTop="350dp"
+        android:text="Hier könnte ihre Klingel stehen"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
